@@ -7,6 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <section class="mx-auto mt-10 max-w-6xl">
@@ -61,7 +68,9 @@
       </header>
     </section>
 
-    <section class="mx-auto flex max-w-6xl items-center justify-between">
+    <section
+      class="mx-auto mb-[94px] flex max-w-6xl items-center justify-between"
+    >
       <div class="w-80">
         <h1 class="text-4xl font-bold text-black">Our Client</h1>
         <p class="text-paragraph mt-4 text-lg leading-7">
@@ -77,7 +86,7 @@
     </section>
 
     <section
-      class="bg-bawah bg-botton mx-auto flex max-w-6xl items-center justify-between bg-contain bg-bottom bg-no-repeat"
+      class="bg-bawah bg-botton mx-auto flex max-w-6xl items-center justify-between bg-contain bg-center bg-no-repeat"
     >
       <div class="w-[396px] flex-none">
         <h1 class="text-4xl font-bold text-black">
@@ -153,6 +162,61 @@
                 Protocols apart from aengage models, pricing billing
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto mt-[146px] mb-[181px] max-w-6xl">
+      <div class="flex items-center justify-center">
+        <div class="relative pr-[41px] pb-[64px]">
+          <div class="rounded-[32px] shadow-xl">
+            <div
+              class="absolute top-[122px] left-[210px] items-center justify-center"
+            >
+              <script>
+                function play() {
+                  var resume = document.getElementById("play-btn");
+
+                  var resumeOn = resume.classList.contains("fa-play");
+
+                  if (resumeOn) {
+                    resume.classList.remove("fa-play");
+                    resume.classList.add("fa-pause");
+                  } else {
+                    resume.classList.remove("fa-pause");
+                    resume.classList.add("fa-play");
+                  }
+                }
+              </script>
+              <button
+                class="h-24 w-24 rounded-full bg-blue-500 focus:outline-none"
+                onclick="play();"
+              >
+                <i class="fa fa-play fa-2x text-white" id="play-btn"></i>
+              </button>
+            </div>
+            <img src="/images/digital-product.png" alt="" />
+          </div>
+          <div class="absolute right-0 bottom-0 -z-10">
+            <img src="/images/circle.svg" alt="" />
+          </div>
+        </div>
+        <div class="relative ml-[80px] w-[532px] pt-[24px] pl-[39px]">
+          <h4 class="text-4xl font-bold text-black">
+            Great Digital Product <br />
+            Agency since 2016
+          </h4>
+          <p class="text-paragraph mt-[30px] text-base leading-[25.6px]">
+            Our Business Plan is a written document describing a company's core
+            business activites, Objectives, and how it plans to achieve its
+            goals. Our goal is to provide our client high quality Product with
+            modern idea accordingly their budgets and according thir
+            reuirements.
+          </p>
+
+          <div class="absolute top-0 left-0 -z-10 h-[178px] w-[178px]">
+            <img src="/images/great.svg" alt="" />
           </div>
         </div>
       </div>
