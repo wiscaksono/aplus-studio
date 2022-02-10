@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/images/bghero.svg')",
         bawah: "url('/images/bgbawah.svg')",
+        form: "url('/images/form.svg')",
       },
     },
   },
